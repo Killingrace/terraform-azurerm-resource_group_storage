@@ -19,7 +19,7 @@ A Terraform module to provision a basic storage infrastructure on Microsoft Azur
 | Name | Version |
 |:---|:---|
 | **Terraform** | `>= 1.0.0` |
-| **azurerm** | `4.75.0` |
+| **azurerm** | `3.5.0` |
 
 ## Providers
 
