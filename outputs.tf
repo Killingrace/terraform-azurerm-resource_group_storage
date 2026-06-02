@@ -11,5 +11,5 @@ output "storage_container_id" {
 }
 
 output "blob_url" {
-    value = azurerm_storage_blob.name.url
+  value = azurerm_storage_blob.name.url
 }
