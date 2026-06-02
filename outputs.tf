@@ -1,11 +1,15 @@
-output "storage_account_id" {
-  value = azurerm_storage_account.name.id
+output "storageresource_group_name_account_id" {
+  value = azurerm_resource_group.example.name
 }
 
 output "blob_id" {
   value = azurerm_storage_blob.name.id
 }
 
-output "container_id" {
+output "storage_container_id" {
   value = azurerm_storage_container.name.id
+}
+
+output "blob_url" {
+    value = azurerm_storage_blob.name.url
 }
